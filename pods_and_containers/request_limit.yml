@@ -1,0 +1,147 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend
+  labels:
+    name: frontend
+spec:
+  containers:
+  - name: app
+    image: alpine
+    command: ["sleep", "3600"]
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend2
+  labels:
+    name: frontend2
+spec:
+  containers:
+  - name: app
+    image: alpine
+    command: ["sleep", "3600"]
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "250m"
+
+---
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend3
+  labels:
+    name: frontend3
+spec:
+  containers:
+  - name: app
+    image: alpine
+    command: ["sleep", "3600"]
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "750m"
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend4
+  labels:
+    name: frontend4
+spec:
+  containers:
+  - name: app
+    image: alpine
+    command: ["sleep", "3600"]
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "750m"
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend5
+  labels:
+    name: frontend5
+spec:
+  containers:
+  - name: app
+    image: alpine
+    command: ["sleep", "3600"]
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "750m"
+
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend6
+  labels:
+    name: frontend6
+spec:
+  containers:
+  - name: app
+    image: alpine
+    command: ["sleep", "3600"]
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "750m"
+
+
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend7
+  labels:
+    name: frontend7
+spec:
+  containers:
+  - name: app
+    image: alpine
+    command: ["sleep", "3600"]
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "750m"
+
+
+
+---
+
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frontend8
+  labels:
+    name: frontend8
+spec:
+  containers:
+  - name: app
+    image: alpine
+    command: ["sleep", "3600"]
+    resources:
+      requests:
+        memory: "64Mi"
+        cpu: "750m"
+
+
+
+
