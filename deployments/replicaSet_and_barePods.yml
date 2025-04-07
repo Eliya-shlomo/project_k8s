@@ -1,0 +1,24 @@
+apiVersion: v1 
+kind: Pod
+metadata:
+  name: mybarepod1
+  labels:
+    tier: frontend
+spec:
+  containers:
+  - name: application1
+    image: gcr.io/google-samples/hello-app:1.0
+
+---
+
+apiVersion: v1 
+kind: Pod
+metadata:
+  name: mybarepod2
+  labels:
+    tier: frontend
+spec:
+  containers:
+  - name: application2
+    image: gcr.io/google-samples/hello-app:1.0
+
