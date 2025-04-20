@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: my-pv-pod
+  name: my-pvc-pod
 spec:
   restartPolicy: Never
   containers:
@@ -12,6 +12,6 @@ spec:
       - mountPath: /output
         name: my-pv
   volumes:
-    - name: my-pv
+    - name: my-pvc
       persistentVolumeClaim:
         claimName: my-pvc
